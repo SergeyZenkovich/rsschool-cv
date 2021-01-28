@@ -157,7 +157,7 @@ export default MessageBlock;
 ## Experience:
  No working experience (only self coding and courses projects).
 
- ## Education:
+## Education:
 * Online courses and Tutorials (HTML Academy, Codeacademy, The Modern JavaScript Tutorial).
 * completed offline courses: “FrontEnd start” in TeachMeSkills, “ServiceNow” in EPAM;
 * RSSchool: “RSSchool-2019/2020”; 
