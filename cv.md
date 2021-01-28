@@ -10,12 +10,13 @@
 ## Summary:
  I am reseacher in GIS and remote sensing areas. In 2019 I graduated from the University(BSU - geography faculty - GIS specialist). Now I am working with spatial data, analyzing space images, writing scripts for GIS software environment. For me it's interesting to try out FrontEnd. I have some experience in FrontEnd (completed courses: “FrontEnd start” in TeachMeSkills, try out: “RSSchool-2019/2020”). My goal is to improve my hard skills in FrontEnd and interconnect my knowledges of GIS and spatial data analyzing and FrontEnd in my future job.<br/> 
 **Goal** - Work as a Front-End developer in a big product company. <br/>
+
 **Wishes:**
  * Impove my hard sklls.
  * Work with AR, VR technologies and 3d visualization.
  * Try myself in web design. 
 
- ## Hard skills
+## Hard skills
 
 * HTML5 + semantic HTML
 * CSS3 + Sass + Less
