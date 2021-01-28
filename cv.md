@@ -16,8 +16,7 @@
  * Work with AR, VR technologies and 3d visualization.
  * Try myself in web design. 
 
-## Hard skills
-
+## Hard skills:
 * HTML5 + semantic HTML
 * CSS3 + Sass + Less
 * Bootstrap
