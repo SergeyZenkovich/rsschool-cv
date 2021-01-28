@@ -3,7 +3,9 @@
 ## Contact Info:
 * Telegram  - https://t.me/SergeyZenkovich
 * Mobile - +375(29)8868275 
-
+* E-mail - sapocalipsys.z@gmail.com
+* Skype - sergeyilsk
+* LinkedIn - https://www.linkedin.com/in/sergey-zenkovich-2a0a72183
 
 ## Summary:
  I am reseacher in GIS and remote sensing areas. In 2019 I graduated from the University(BSU - geography faculty - GIS specialist). Now I am working with spatial data, analyzing space images, writing scripts for GIS software environment. For me it's interesting to try out FrontEnd. I have some experience in FrontEnd (completed courses: “FrontEnd start” in TeachMeSkills, try out: “RSSchool-2019/2020”). My goal is to improve my hard skills in FrontEnd and interconnect my knowledges of GIS and spatial data analyzing and FrontEnd in my future job.<br/> 
