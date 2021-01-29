@@ -6,10 +6,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .wrapper {
   width: 1024px;
   margin: 0 auto;
 }
+
 .header {
   display: flex;
   justify-content: center;
@@ -18,15 +20,15 @@ body {
   height: 230px;
   margin: 0 auto;
   overflow-y: hidden;
-  background-image: url(../assets/img/CV.jpg);
-  background-size: 100wh;
-  color: white;
+  color: #fff;
   font-family: 'Hind Guntur', sans-serif;
   font-weight: 700;
+  background-image: url(../assets/img/CV.jpg);
+  background-size: 100wh;
 }
 .name {
-  font-size: 2.4em;
   margin: 0;
+  font-size: 2.8em;
 }
 .position {
   margin: 5px 0;
@@ -34,8 +36,8 @@ body {
   font-weight: 500;
 }
 .info {
-  width: 80%;
   display: flex;
+  width: 80%;
   justify-content: space-around;
   align-items: center;
 }
@@ -45,64 +47,8 @@ body {
   border-radius: 5%;
   border: 5px solid #e8e7e8;
 }
-.contact-info {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  width: 100%;
-  height: 70px;
-  background-color: rgb(10, 10, 15, 0.50);
-}
-.contact-elem {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.contact-elem-mob {
-  width: 120px;
-}
-.contact-elem-mail {
-  width: 140px;
-  color: white;
-  text-decoration: none;
-}
-.contact-elem-tg {
-  width: 160px;
-  color: white;
-  text-decoration: none;
-}
-.contact-elem-p {
-  text-align: center;
-  font-size: 0.7em;
-  font-weight: 700;
-  line-height: 36px;
-  color: #fff;
-}
-.mobile::before {
-  display: block;
-  content: '';
-  width: 25px;
-  height: 25px;
-  margin-left: 35%;
-  background: url(../assets/img/Background-mob.svg);
-}
-.mail::before {
-  display: block;
-  content: '';
-  width: 25px;
-  height: 25px;
-  margin-left: 45%;
-  background: url(../assets/img/Background-mail.svg);
-}
-.telegram::before {
-  display: block;
-  content: '';
-  width: 25px;
-  height: 25px;
-  margin-left: 45%;
-  background: url(../assets/img/Background-tg.svg);
-}
+
+
 .main {
   display: flex;
   justify-content: space-around;
@@ -110,81 +56,67 @@ body {
 .left-media {
   width: 35%;
   padding: 20px;
+  color: #fff;
   font-family: 'Maven Pro', sans-serif;
-  background-color: #000000bb;
-  color: #ffffff;
+  background-color: #000b;
 }
 .right-media {
   width: 65%;
   padding: 20px;
   font-family: 'PT Sans', sans-serif;
-  background-color: #e2e2e2;
+  background-color: #d8d7d7;
 }
-.social-media {
-  margin-bottom: 20px;
-}
-.summary {
-  margin-bottom: 20px;
+.social-media { margin-bottom: 20px; }
+.summary { margin-bottom: 20px; }
+.social::before,
+.skills::before,
+.summary-p::before,
+.education-p::before,
+.english-p::before,
+.experience-p::before,
+.code-p::before{
+  display: inline-block;
+  content: '';
+  margin-right: 10px;
 }
 .social::before {
-  display: inline-block;
-  content: '';
   width: 34px;
   height: 34px;
-  margin-right: 10px;
-  background: url(../assets/img/Background.svg);
+  background-image: url(../assets/img/Background.svg);
 }
 .skills::before {
-  display: inline-block;
-  content: '';
   width: 38px;
   height: 38px;
-  margin-right: 10px;
-  background: url(../assets/img/Background-skill.svg);
+  background-image: url(../assets/img/Background-skill.svg);
 }
 .summary-p::before {
-  display: inline-block;
-  content: '';
   width: 38px;
   height: 38px;
-  margin-right: 10px;
-  background: url(../assets/img/Background-summary.svg);
+  background-image: url(../assets/img/Background-summary.svg);
 }
 .linkOnMedia {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 .education-p::before {
-  display: inline-block;
-  content: '';
   width: 40px;
   height: 36px;
-  margin-right: 10px;
-  background: url(../assets/img/Background-education.svg);
+  background-image: url(../assets/img/Background-education.svg);
 }
 .english-p::before {
-  display: inline-block;
-  content: '';
   width: 40px;
   height: 36px;
-  margin-right: 10px;
-  background: url(../assets/img/Background-english.svg);
+  background-image: url(../assets/img/Background-english.svg);
 }
 .experience-p::before {
-  display: inline-block;
-  content: '';
   width: 38px;
   height: 32px;
-  margin-right: 10px;
-  background: url(../assets/img/Background-exp.svg);
+  background-image: url(../assets/img/Background-exp.svg);
 }
 .code-p::before {
-  display: inline-block;
-  content: '';
   width: 40px;
   height: 36px;
-  margin-right: 10px;
-  background: url(../assets/img/Background-code.svg);
+  background-image: url(../assets/img/Background-code.svg);
 }
 .social,
 .skills,
@@ -193,7 +125,7 @@ body {
 .english-p,
 .experience-p,
 .code-p {
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0 10px 0;
   font-size: 1.6em;
   font-weight: 700;
   text-transform: uppercase;
@@ -202,15 +134,11 @@ body {
 .social-ul,
 .whishes-ul,
 .education-ul {
-  list-style: square;
   padding-left: 25px;
+  list-style: square;
 }
-.whishes-ul {
-  padding-top: 15px;
-}
-.social-elem:first-child {
-  margin-top: 10px;
-}
+.whishes-ul { padding-top: 15px; }
+.social-elem:first-child { margin-top: 10px;}
 .social-elem {
   width: 90%;
   margin-bottom: 12px;
@@ -220,12 +148,8 @@ body {
   font-weight: 700;
   font-size: 1.1em;
 }
-.text {
-  margin: 15px 0px;
-}
-.skills-bar {
-  margin-top: 20px;
-}
+.text { margin: 15px 0; }
+.skills-bar { margin-top: 20px; }
 .level,
 .education,
 .english,
@@ -235,19 +159,15 @@ body {
 .examples {
   width: 100px;
   height: 40px;
+  color: #0008;
   text-decoration: none;
-  color: #00000088;
 }
-.black-hr {
-  border: 0.5px solid #000000aa;
-}
-.white-hr {
-  border: 0.4px solid #ffffff;
-}
+.black-hr { border: .5px solid #000a; }
+.white-hr { border: .4px solid #fff; }
 .bar {
   height: 3px;
   width: 200px;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   background-color: whitesmoke;
 }
 .progress-html,
@@ -288,7 +208,7 @@ body {
 }
 .progress-bem {
   width: 90%;
-  background-color: rgb(109, 96, 85);
+  background-color: rgb(109,96,85);
 }
 .progress-git {
   width: 65%;
@@ -302,23 +222,76 @@ body {
   width: 60%;
   background-color: steelblue;
 }
-.progress-re{
+.progress-re {
   width: 65%;
   background-color: #61dbfb;
 }
-.progress-ui{
+.progress-ui {
   width: 45%;
   background-color: #0081cb;
 }
-.progress-rx{
+.progress-rx {
   width: 80%;
   background-color: #7248b6;
 }
-.progress-sql{
+.progress-sql {
   width: 30%;
   background-color: #b2cd30;
 }
-.progress-rd{
+.progress-rd {
   width: 90%;
   background-color: #1e2020;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(10,10,15,.5);
+}
+.contact-elem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-elem-mob { width: 120px; }
+.contact-elem-mail {
+  width: 140px;
+  color: #fff;
+  text-decoration: none;
+}
+.contact-elem-tg {
+  width: 160px;
+  color: #fff;
+  text-decoration: none;
+}
+.contact-elem-p {
+  color: #fff;
+  text-align: center;
+  font-size: .7em;
+  font-weight: 700;
+  line-height: 36px;
+}
+.mobile::before,
+.telegram::before,
+.mail::before{
+  display: block;
+  content: '';
+  width: 25px;
+  height: 25px;
+}
+.mobile::before {
+  margin-left: 35%;
+  background-image: url(../assets/img/Background-mob.svg);
+}
+.mail::before {
+  margin-left: 45%;
+  background-image: url(../assets/img/Background-mail.svg);
+}
+.telegram::before {
+  margin-left: 45%;
+  background-image: url(../assets/img/Background-tg.svg);
 }
