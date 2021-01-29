@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500&display=swap');
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 230px;
+  margin: 0 auto;
+  overflow-y: hidden;
+  color: #fff;
+  font-family: 'Hind Guntur', sans-serif;
+  font-weight: 700;
+  background-image: url(../assets/img/CV.jpg);
+  background-size: 100wh;
+}
+.name {
+  margin: 0;
+  font-size: 2.8em;
+}
+.position {
+  margin: 5px 0;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.info {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+  border: 5px solid #e8e7e8;
+}
+
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.left-media {
+  width: 35%;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #000b;
+}
+.right-media {
+  width: 65%;
+  padding: 20px;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #d8d7d7;
+}
+.social-media { margin-bottom: 20px; }
+.summary { margin-bottom: 20px; }
+.social::before,
+.skills::before,
+.summary-p::before,
+.education-p::before,
+.english-p::before,
+.experience-p::before,
+.code-p::before{
+  display: inline-block;
+  content: '';
+  margin-right: 10px;
+}
+.social::before {
+  width: 34px;
+  height: 34px;
+  background-image: url(../assets/img/Background.svg);
+}
+.skills::before {
+  width: 38px;
+  height: 38px;
+  background-image: url(../assets/img/Background-skill.svg);
+}
+.summary-p::before {
+  width: 38px;
+  height: 38px;
+  background-image: url(../assets/img/Background-summary.svg);
+}
+.linkOnMedia {
+  color: #fff;
+  text-decoration: none;
+}
+.education-p::before {
+  width: 40px;
+  height: 36px;
+  background-image: url(../assets/img/Background-education.svg);
+}
+.english-p::before {
+  width: 40px;
+  height: 36px;
+  background-image: url(../assets/img/Background-english.svg);
+}
+.experience-p::before {
+  width: 38px;
+  height: 32px;
+  background-image: url(../assets/img/Background-exp.svg);
+}
+.code-p::before {
+  width: 40px;
+  height: 36px;
+  background-image: url(../assets/img/Background-code.svg);
+}
+.social,
+.skills,
+.summary-p,
+.education-p,
+.english-p,
+.experience-p,
+.code-p {
+  margin: 20px 0 10px 0;
+  font-size: 1.6em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 36px;
+}
+.social-ul,
+.whishes-ul,
+.education-ul {
+  padding-left: 25px;
+  list-style: square;
+}
+.whishes-ul { padding-top: 15px; }
+.social-elem:first-child { margin-top: 10px;}
+.social-elem {
+  width: 90%;
+  margin-bottom: 12px;
+}
+.whishes-span,
+.level-span {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.text { margin: 15px 0; }
+.skills-bar { margin-top: 20px; }
+.level,
+.education,
+.english,
+.experience {
+  margin-bottom: 20px;
+}
+.examples {
+  width: 100px;
+  height: 40px;
+  color: #0008;
+  text-decoration: none;
+}
+.black-hr { border: .5px solid #000a; }
+.white-hr { border: .4px solid #fff; }
+.bar {
+  height: 3px;
+  width: 200px;
+  border: 1px solid #000;
+  background-color: whitesmoke;
+}
+.progress-html,
+.progress-css,
+.progress-es,
+.progress-jq,
+.progress-bo,
+.progress-bem,
+.progress-git,
+.progress-web,
+.progress-py,
+.progress-re,
+.progress-ui,
+.progress-rx,
+.progress-sql,
+.progress-rd {
+  height: 3px;
+}
+.progress-html {
+  width: 95%;
+  background-color: coral;
+}
+.progress-css {
+  width: 90%;
+  background-color: cornflowerblue;
+}
+.progress-es {
+  width: 80%;
+  background-color: orange;
+}
+.progress-jq {
+  width: 60%;
+  background-color: orchid;
+}
+.progress-bo {
+  width: 40%;
+  background-color: purple;
+}
+.progress-bem {
+  width: 90%;
+  background-color: rgb(109,96,85);
+}
+.progress-git {
+  width: 65%;
+  background-color: tomato;
+}
+.progress-web {
+  width: 45%;
+  background-color: slateblue;
+}
+.progress-py {
+  width: 60%;
+  background-color: steelblue;
+}
+.progress-re {
+  width: 65%;
+  background-color: #61dbfb;
+}
+.progress-ui {
+  width: 45%;
+  background-color: #0081cb;
+}
+.progress-rx {
+  width: 80%;
+  background-color: #7248b6;
+}
+.progress-sql {
+  width: 30%;
+  background-color: #b2cd30;
+}
+.progress-rd {
+  width: 90%;
+  background-color: #1e2020;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(10,10,15,.5);
+}
+.contact-elem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-elem-mob { width: 120px; }
+.contact-elem-mail {
+  width: 140px;
+  color: #fff;
+  text-decoration: none;
+}
+.contact-elem-tg {
+  width: 160px;
+  color: #fff;
+  text-decoration: none;
+}
+.contact-elem-p {
+  color: #fff;
+  text-align: center;
+  font-size: .7em;
+  font-weight: 700;
+  line-height: 36px;
+}
+.mobile::before,
+.telegram::before,
+.mail::before{
+  display: block;
+  content: '';
+  width: 25px;
+  height: 25px;
+}
+.mobile::before {
+  margin-left: 35%;
+  background-image: url(../assets/img/Background-mob.svg);
+}
+.mail::before {
+  margin-left: 45%;
+  background-image: url(../assets/img/Background-mail.svg);
+}
+.telegram::before {
+  margin-left: 45%;
+  background-image: url(../assets/img/Background-tg.svg);
+}
